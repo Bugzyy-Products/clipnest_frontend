@@ -8,15 +8,15 @@ const PAGE = PAGES.about;
 export const metadata = pageMetadata({
   title: "About",
   description:
-    "ClipNest is a free browser tool for saving public Instagram and Facebook videos in the quality you choose. Learn how it works and how we handle your data.",
+    "Reelorca is a free browser tool for saving public Instagram and Facebook videos in the quality you choose. Learn how it works and how we handle your data.",
   path: PAGE.path,
 });
 
 export default function AboutPage() {
   return (
-    <InfoPage page={PAGE} h1="About ClipNest">
+    <InfoPage page={PAGE} h1="About Reelorca">
       <p className="lead">
-        ClipNest is a free tool for saving public Instagram and Facebook videos in the quality you choose, from any
+        Reelorca is a free tool for saving public Instagram and Facebook videos in the quality you choose, from any
         browser.
       </p>
       <h2>How it works</h2>
@@ -34,7 +34,7 @@ export default function AboutPage() {
       <h2>Use it responsibly</h2>
       <p>
         Only download videos you created or have permission to use. See our <Link href={PAGES.terms.path}>terms of use</Link>{" "}
-        and <Link href={PAGES.privacy.path}>privacy policy</Link>. ClipNest is independent and is not affiliated with
+        and <Link href={PAGES.privacy.path}>privacy policy</Link>. Reelorca is independent and is not affiliated with
         Instagram, Facebook or Meta.
       </p>
     </InfoPage>

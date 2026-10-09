@@ -1,6 +1,6 @@
 export function Logo({ size = 32 }: { size?: number }) {
   return (
-    <svg width={size} height={size} viewBox="0 0 64 64" role="img" aria-label="ClipNest logo">
+    <svg width={size} height={size} viewBox="0 0 64 64" role="img" aria-label="Reelorca logo">
       <defs>
         <linearGradient id="cn-g" x1="0" y1="0" x2="1" y2="1">
           <stop offset="0" stopColor="#833AB4" />

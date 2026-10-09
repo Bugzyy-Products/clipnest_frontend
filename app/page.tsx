@@ -9,7 +9,7 @@ import { webAppSchema } from "@/lib/schema";
 import { pageMetadata } from "@/lib/seo";
 import { PAGES, SITE_NAME } from "@/lib/site";
 
-const TITLE = "ClipNest: Free Instagram & Facebook Video Downloader (HD)";
+const TITLE = "Reelorca: Free Instagram & Facebook Video Downloader (HD)";
 const DESCRIPTION =
   "Download Instagram Reels, Instagram videos and Facebook videos in HD for free. Paste the link, choose 1080p, 720p or lower, and save the MP4. No app or sign-up.";
 
@@ -55,7 +55,7 @@ export default function HomePage() {
       </section>
 
       <Faq faqs={FAQS} />
-      <RelatedLinks current="/" title="Explore ClipNest" />
+      <RelatedLinks current="/" title="Explore Reelorca" />
       <JsonLd data={webAppSchema(SITE_NAME, DESCRIPTION, "/")} />
     </div>
   );

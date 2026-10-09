@@ -17,7 +17,7 @@ const FAQS = [
   },
   {
     q: "Are Reels downloaded with sound?",
-    a: "Yes. Every quality includes audio. If Instagram serves the video and audio separately, ClipNest merges them for you.",
+    a: "Yes. Every quality includes audio. If Instagram serves the video and audio separately, Reelorca merges them for you.",
   },
   {
     q: "Can I download Reels from private accounts?",
@@ -37,7 +37,7 @@ export default function ReelsPage() {
     >
       <h2>Download Instagram Reels in full HD</h2>
       <p>
-        Instagram compresses Reels into several resolutions. ClipNest lists all of them, usually up to 1080p, so you can
+        Instagram compresses Reels into several resolutions. Reelorca lists all of them, usually up to 1080p, so you can
         choose between the best quality and a smaller file. The download is a standard MP4 that plays on any phone,
         computer or video editor.
       </p>

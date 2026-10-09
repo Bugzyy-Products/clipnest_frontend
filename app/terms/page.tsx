@@ -7,7 +7,7 @@ const PAGE = PAGES.terms;
 export const metadata = pageMetadata({
   title: "Terms of Use",
   description:
-    "The rules for using ClipNest: download only content you own or have permission to use, respect copyright and use the service fairly.",
+    "The rules for using Reelorca: download only content you own or have permission to use, respect copyright and use the service fairly.",
   path: PAGE.path,
 });
 
@@ -28,11 +28,11 @@ export default function TermsPage() {
       </p>
       <h2>No warranty</h2>
       <p>
-        ClipNest is provided as is and free of charge. Platforms change often, so some videos may not be available at
+        Reelorca is provided as is and free of charge. Platforms change often, so some videos may not be available at
         all times.
       </p>
       <h2>Not affiliated</h2>
-      <p>ClipNest is not affiliated with, endorsed by or sponsored by Instagram, Facebook or Meta Platforms.</p>
+      <p>Reelorca is not affiliated with, endorsed by or sponsored by Instagram, Facebook or Meta Platforms.</p>
     </InfoPage>
   );
 }

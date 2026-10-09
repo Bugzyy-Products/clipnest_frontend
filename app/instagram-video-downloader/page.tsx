@@ -13,11 +13,11 @@ export const metadata = pageMetadata({ title: TITLE, description: DESCRIPTION, p
 const FAQS = [
   {
     q: "Can I download every video in an Instagram carousel?",
-    a: "Yes. When a post has several videos, ClipNest lists each one with its own quality options.",
+    a: "Yes. When a post has several videos, Reelorca lists each one with its own quality options.",
   },
   {
     q: "Does it download Instagram photos?",
-    a: "No. ClipNest is built for videos only. Photo-only posts return a 'no video found' message.",
+    a: "No. Reelorca is built for videos only. Photo-only posts return a 'no video found' message.",
   },
   {
     q: "Do I need to log in to Instagram?",
@@ -37,7 +37,7 @@ export default function InstagramPage() {
     >
       <h2>Download Instagram videos without an app</h2>
       <p>
-        ClipNest runs in your browser, so there is nothing to install. Paste the link of a public Instagram post and you
+        Reelorca runs in your browser, so there is nothing to install. Paste the link of a public Instagram post and you
         get a list of available qualities for every video in it. Choose one and the MP4 downloads straight to your
         device.
       </p>

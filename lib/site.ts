@@ -2,7 +2,7 @@ export const SITE_URL = (process.env.NEXT_PUBLIC_SITE_URL || "https://clipnest-f
 export const API_BASE_URL = (process.env.NEXT_PUBLIC_API_BASE_URL || "https://clipnest-backend-l7lq.onrender.com").replace(/\/+$/, "");
 export const API_KEY = process.env.NEXT_PUBLIC_API_KEY || "";
 
-export const SITE_NAME = "ClipNest";
+export const SITE_NAME = "Reelorca";
 export const SITE_TAGLINE = "Instagram & Facebook Video Downloader";
 export const SITE_DESCRIPTION =
   "Download public Instagram Reels, Instagram videos and Facebook videos in HD for free. Paste a link, pick a quality, save the MP4. No app or sign-up needed.";

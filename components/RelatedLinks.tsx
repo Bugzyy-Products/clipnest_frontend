@@ -7,11 +7,11 @@ const BLURBS: Record<string, string> = {
   [PAGES.facebook.path]: "Download public Facebook videos, Reels and fb.watch links.",
   [PAGES.howTo.path]: "Step-by-step guide for iPhone, Android and desktop.",
   [PAGES.faq.path]: "Answers about quality, privacy and supported links.",
-  [PAGES.about.path]: "Who makes ClipNest and how it works.",
+  [PAGES.about.path]: "Who makes Reelorca and how it works.",
 };
 
 /** In-content links to other pages, excluding the current one. */
-export function RelatedLinks({ current, title = "More from ClipNest" }: { current: string; title?: string }) {
+export function RelatedLinks({ current, title = "More from Reelorca" }: { current: string; title?: string }) {
   const pages: NavPage[] = [PAGES.reels, PAGES.instagram, PAGES.facebook, PAGES.howTo, PAGES.faq, PAGES.about].filter(
     (p) => p.path !== current,
   );

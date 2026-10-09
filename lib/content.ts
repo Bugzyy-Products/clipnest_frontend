@@ -1,15 +1,15 @@
 export const FAQS = [
   {
-    q: "Is ClipNest free?",
-    a: "Yes. ClipNest is free to use, needs no account and has no download limit beyond a fair-use rate limit that keeps the service fast for everyone.",
+    q: "Is Reelorca free?",
+    a: "Yes. Reelorca is free to use, needs no account and has no download limit beyond a fair-use rate limit that keeps the service fast for everyone.",
   },
   {
-    q: "Which links does ClipNest support?",
+    q: "Which links does Reelorca support?",
     a: "Public Instagram Reels, Instagram video posts (including carousels with several videos) and public Facebook videos, Reels and fb.watch links.",
   },
   {
     q: "Can I download private Instagram or Facebook videos?",
-    a: "No. ClipNest only works with public posts. Private accounts, close-friends stories and videos that need a login cannot be downloaded.",
+    a: "No. Reelorca only works with public posts. Private accounts, close-friends stories and videos that need a login cannot be downloaded.",
   },
   {
     q: "What quality can I download in?",
@@ -17,7 +17,7 @@ export const FAQS = [
   },
   {
     q: "Does it work on iPhone and Android?",
-    a: "Yes. ClipNest runs in any modern mobile or desktop browser. On iPhone, open the downloaded MP4 from the Files app and save it to Photos.",
+    a: "Yes. Reelorca runs in any modern mobile or desktop browser. On iPhone, open the downloaded MP4 from the Files app and save it to Photos.",
   },
   {
     q: "Do you keep a copy of the videos I download?",
@@ -35,8 +35,8 @@ export const HOW_TO_STEPS = [
     text: "In Instagram or Facebook, tap Share (or the three dots) on the Reel or video and choose Copy link.",
   },
   {
-    name: "Paste it into ClipNest",
-    text: "Open ClipNest, paste the link into the box and press Get video.",
+    name: "Paste it into Reelorca",
+    text: "Open Reelorca, paste the link into the box and press Get video.",
   },
   {
     name: "Pick a quality and download",

@@ -1,6 +1,6 @@
-# ClipNest website
+# Reelorca website
 
-Next.js (App Router) site for ClipNest. Every page is prerendered to static HTML, so search engines get the full content without running JavaScript. The only client-side code is the downloader box, which calls the [ClipNest backend](https://github.com/Bugzyy-Products/clipnest_backend).
+Next.js (App Router) site for Reelorca. Every page is prerendered to static HTML, so search engines get the full content without running JavaScript. The only client-side code is the downloader box, which calls the [backend](https://github.com/Bugzyy-Products/clipnest_backend).
 
 ## Pages
 
@@ -22,7 +22,7 @@ To add a page, add it to `PAGES` in `lib/site.ts` (that feeds the sitemap and fo
 - Unique title, meta description and canonical URL per page (`lib/seo.ts`).
 - Organization, WebSite, WebApplication, BreadcrumbList, FAQPage and HowTo schema (`lib/schema.ts`).
 - Visible breadcrumbs on every page except home.
-- Internal links between all pages (header, footer and a "More from ClipNest" block).
+- Internal links between all pages (header, footer and a "More from Reelorca" block).
 - System fonts and no hero images, so nothing shifts the layout and the largest element is text.
 
 ## Environment variables
@@ -52,7 +52,7 @@ npm run build   # production build
 
 ### Avoid redirect chains
 
-In Vercel > Project > Settings > Domains, make one domain the primary (for example `clipnest.app`) and set the other (`www.clipnest.app`) to redirect straight to it with a 308. Vercel already sends `http` straight to `https`. Make sure `NEXT_PUBLIC_SITE_URL` uses the primary domain, so canonicals never point at a URL that redirects.
+In Vercel > Project > Settings > Domains, make one domain the primary (for example `reelorca.com`) and set the other (`www.reelorca.com`) to redirect straight to it with a 308. Vercel already sends `http` straight to `https`. Make sure `NEXT_PUBLIC_SITE_URL` uses the primary domain, so canonicals never point at a URL that redirects.
 
 ### Google Search Console
 

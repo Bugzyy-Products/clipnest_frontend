@@ -7,7 +7,7 @@ const PAGE = PAGES.privacy;
 export const metadata = pageMetadata({
   title: "Privacy Policy",
   description:
-    "How ClipNest handles your data: no accounts, no stored videos, and only the minimal technical data needed to run and protect the service.",
+    "How Reelorca handles your data: no accounts, no stored videos, and only the minimal technical data needed to run and protect the service.",
   path: PAGE.path,
 });
 
@@ -17,7 +17,7 @@ export default function PrivacyPage() {
       <p className="muted small">Last updated: 9 October 2026</p>
       <h2>What we collect</h2>
       <p>
-        ClipNest has no accounts. When you use the downloader, our server receives the link you paste and your IP
+        Reelorca has no accounts. When you use the downloader, our server receives the link you paste and your IP
         address. The IP address is kept in memory for about a minute to enforce a per-visitor rate limit. We don&apos;t
         save it to a database.
       </p>
@@ -33,7 +33,7 @@ export default function PrivacyPage() {
         standard server logs under their own privacy policies.
       </p>
       <h2>Cookies</h2>
-      <p>ClipNest does not set tracking or advertising cookies.</p>
+      <p>Reelorca does not set tracking or advertising cookies.</p>
     </InfoPage>
   );
 }

@@ -14,7 +14,7 @@ export default function NotFound() {
       <p className="lead">That page doesn&apos;t exist. Try one of these instead:</p>
       <ul>
         <li>
-          <Link href={PAGES.home.path}>ClipNest home</Link>
+          <Link href={PAGES.home.path}>Reelorca home</Link>
         </li>
         {TOOL_PAGES.map((p) => (
           <li key={p.path}>

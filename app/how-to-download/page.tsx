@@ -42,7 +42,7 @@ export default function HowToPage() {
         seconds.
       </p>
       <h2>On Windows, Mac and Linux</h2>
-      <p>Copy the link from the browser address bar, paste it into ClipNest and the file saves to your Downloads folder.</p>
+      <p>Copy the link from the browser address bar, paste it into Reelorca and the file saves to your Downloads folder.</p>
 
       <h2>If something goes wrong</h2>
       <ul>

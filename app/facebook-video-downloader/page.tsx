@@ -37,7 +37,7 @@ export default function FacebookPage() {
     >
       <h2>Download Facebook videos in HD</h2>
       <p>
-        Facebook usually offers each video in an HD and an SD version, and sometimes in more resolutions. ClipNest shows
+        Facebook usually offers each video in an HD and an SD version, and sometimes in more resolutions. Reelorca shows
         all of them with their file size, so you can choose before downloading.
       </p>
       <h2>How to find a Facebook video link</h2>

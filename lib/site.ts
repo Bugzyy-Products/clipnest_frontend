@@ -1,4 +1,4 @@
-export const SITE_URL = (process.env.NEXT_PUBLIC_SITE_URL || "https://clipnest.vercel.app").replace(/\/+$/, "");
+export const SITE_URL = (process.env.NEXT_PUBLIC_SITE_URL || "https://clipnest-frontend.vercel.app").replace(/\/+$/, "");
 export const API_BASE_URL = (process.env.NEXT_PUBLIC_API_BASE_URL || "https://clipnest-backend-l7lq.onrender.com").replace(/\/+$/, "");
 export const API_KEY = process.env.NEXT_PUBLIC_API_KEY || "";
 

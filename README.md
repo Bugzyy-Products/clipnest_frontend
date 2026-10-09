@@ -31,7 +31,7 @@ Copy `.env.example` to `.env.local` for local development. Set the same variable
 
 | Name | Example | Purpose |
 | --- | --- | --- |
-| `NEXT_PUBLIC_SITE_URL` | `https://clipnest.app` | Your final domain, no trailing slash. Used for canonicals, sitemap and schema. **Must match the domain you submit to Search Console.** |
+| `NEXT_PUBLIC_SITE_URL` | `https://clipnest-frontend.vercel.app` | Your final domain (this is the default if unset), no trailing slash. Used for canonicals, sitemap and schema. **Must match the domain you submit to Search Console.** |
 | `NEXT_PUBLIC_API_BASE_URL` | `https://clipnest-backend-l7lq.onrender.com` | Backend URL, no trailing slash. Defaults to the Render service above if unset |
 | `NEXT_PUBLIC_API_KEY` | | Same as the backend `API_KEY`, if you set one |
 | `NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION` | | Optional. Token from Search Console's HTML-tag verification |

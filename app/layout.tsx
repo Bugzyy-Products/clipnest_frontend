@@ -12,10 +12,10 @@ export const metadata: Metadata = {
   description: SITE_DESCRIPTION,
   applicationName: SITE_NAME,
   robots: { index: true, follow: true, googleBot: { index: true, follow: true, "max-image-preview": "large" } },
-  // Paste the token from Google Search Console > Settings > Ownership verification > HTML tag.
-  verification: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION
-    ? { google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION }
-    : undefined,
+  // Google Search Console HTML-tag token. Public by design; override with NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION.
+  verification: {
+    google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION || "Kyb_M1FxiiFBKjkyCx3gJC0V3CEohuk2qQEoSmEhmaY",
+  },
 };
 
 export const viewport: Viewport = {
